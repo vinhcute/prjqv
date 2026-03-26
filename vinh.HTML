@@ -1,18 +1,71 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My First Web</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ELAN Fashion</title>
+  <link rel="stylesheet" href="v1.css" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
 </head>
-
 <body>
+  <header class="navbar">
+    <div class="container nav-wrapper">
+      <div class="logo">ÉLAN</div>
 
-    <h1>Hello World</h1>
-    <p>This is my first simple HTML page.</p>
+      <nav class="nav-menu">
+        <a href="#">New Arrivals</a>
+        <a href="#">Women</a>
+        <a href="#">Men</a>
+        <a href="#">Accessories</a>
+        <a href="#">Sale</a>
+      </nav>
 
-    <p>This is my second simple HTML page.</p>
-    
+      <div class="nav-icons">
+        <span>⌕</span>
+        <span>◦</span>
+        <span class="cart-icon">
+          👜
+          <sup>3</sup>
+        </span>
+      </div>
+    </div>
+  </header>
 
-    <button>Click me</button>
+  <main class="hero">
+    <div class="container hero-wrapper">
+      <div class="hero-content">
+        <p class="sub-title">SPRING COLLECTION 2026</p>
 
+        <h1>
+          Elevate Your
+          <span>Everyday Style</span>
+        </h1>
+
+        <p class="description">
+          Discover our curated collection of timeless pieces designed for the
+          modern wardrobe. Quality craftsmanship meets contemporary design.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#" class="btn btn-dark">Shop Collection →</a>
+          <a href="#" class="btn btn-light">View Lookbook</a>
+        </div>
+      </div>
+
+      <div class="hero-images">
+        <div class="image-card image-tall">
+          <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=80" alt="Fashion collection">
+        </div>
+
+        <div class="image-card image-short">
+          <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=900&q=80" alt="Woman in fashion style">
+        </div>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
